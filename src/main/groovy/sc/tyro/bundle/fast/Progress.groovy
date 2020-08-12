@@ -6,6 +6,10 @@ import sc.tyro.core.support.property.MinimumSupport
 import sc.tyro.core.support.property.ValueSupport
 import sc.tyro.web.CssIdentifier
 
+/**
+ * @author David Avenante
+ * @since 1.0.0
+ */
 @CssIdentifier('fast-progress')
 class Progress extends Component implements MaximumSupport, MinimumSupport, ValueSupport {
     @Override

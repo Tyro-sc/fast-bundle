@@ -1,7 +1,7 @@
 # fast-bundle
 Microsoft Fast Design System Bundle
 
-[ ] Accordion
+[X] Accordion
 
 [ ] Anchor
 
