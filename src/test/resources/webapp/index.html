@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Tyro Rock">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script type="module" src="https://unpkg.com/@microsoft/fast-components"></script>
+    <link href="style.css" rel="stylesheet" media="screen">
+</head>
+
+<body>
+
+<fast-design-system-provider use-defaults>
+    <fast-button appearance="primary">My Button</fast-button>
+
+    <hr/>
+
+    <fast-anchor href="https://fast.design" appearance="hypertext">FAST</fast-anchor>
+
+    <hr/>
+
+    <fast-badge appearance="accent">My Badge</fast-badge>
+
+    <hr/>
+
+    <fast-checkbox checked>Apple</fast-checkbox>
+    <fast-checkbox>Banana</fast-checkbox>
+    <fast-checkbox disabled checked>Mango</fast-checkbox>
+
+    <hr/>
+
+    <fast-radio checked>Apple</fast-radio>
+    <fast-radio>Banana</fast-radio>
+    <fast-radio disabled checked>Mango</fast-radio>
+
+    <hr/>
+
+    <fast-progress min="0" max="100" value="75"></fast-progress>
+    <fast-progress-ring min="0" max="100" value="75"></fast-progress-ring>
+
+    <hr/>
+
+
+    <fast-flipper direction="previous"></fast-flipper>
+    <fast-flipper direction="next"></fast-flipper>
+
+</fast-design-system-provider>
+
+</body>
+
+</html>
